@@ -58,7 +58,8 @@ const trackEmployee = () => {
           break;
 
         case  'View  the total utilized budget of a department':
-          budgetAction();
+          // budgetAction();
+          console.log("success")
           break;
         case 'update employee roles':
           updateAction();
@@ -176,7 +177,8 @@ const viewAction = () => {
           viewEmployees();
           break;
         case 'view employees by manager':
-          viewEmployeesByManager();
+        //  viewEmployeesByManager() ;
+        console.log("employees ad")
 
         default:
           console.log(`Invalid view: ${answer.view}`);
@@ -186,8 +188,7 @@ const viewAction = () => {
 };
 
 
-
-budgetAction();
+// budgetAction();
 
 
 // activate the update
@@ -255,7 +256,6 @@ const deleteAction = () => {
       }
     });
 };
-
 
 const exitAction = () => {
   figlet('GoodBye', (err, result) => {
@@ -381,7 +381,7 @@ const viewEmployees = () => {
 
 // View employees by Manager
 
-viewEmployeesByManager();
+// viewEmployeesByManager();
 
 
 // run the update functions
@@ -508,7 +508,6 @@ trackEmployee();
   })
 };
 
-
 // run delete functions
 
 const deleteDepartments = () => {
@@ -544,7 +543,6 @@ const deleteDepartments = () => {
     trackEmployee();
   })
 };
-
 
 // run delete roles
 const deleteRoles= () => {
