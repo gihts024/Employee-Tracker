@@ -58,8 +58,8 @@ const trackEmployee = () => {
           break;
 
         case  'View  the total utilized budget of a department':
-          // budgetAction();
-          console.log("success")
+          budgetAction();
+        
           break;
         case 'update employee roles':
           updateAction();
@@ -177,8 +177,8 @@ const viewAction = () => {
           viewEmployees();
           break;
         case 'view employees by manager':
-        //  viewEmployeesByManager() ;
-        console.log("employees ad")
+         viewEmployeesByManager() ;
+       
 
         default:
           console.log(`Invalid view: ${answer.view}`);
@@ -189,8 +189,17 @@ const viewAction = () => {
 
 
 // budgetAction();
+  budgetAction=()=>{
+  connection.query( "SELECT d.name, SUM(r.salary) as Department_Name  FROM role AS r INNER JOIN department AS d ON r.department_id = d.id GROUP BY d.name",(err, res) => {
+    if (err) throw err;
+    figlet('Departments Total', (err, result) => {
+      console.log(err || result);
+    });
 
-
+    printTable(res);
+    trackEmployee();
+  });
+};
 // activate the update
 
 const updateAction = () => {
@@ -381,7 +390,18 @@ const viewEmployees = () => {
 
 // View employees by Manager
 
-// viewEmployeesByManager();
+const viewEmployeesByManager=()=>{
+  const query = 'SELECT e.first_name, e.last_name, CONCAT_WS(" ", m.first_name, m.last_name) AS manager FROM employee e LEFT JOIN employee m ON m.id = e.manager_id INNER JOIN role r ON e.role_id = r.id INNER JOIN department d ON r.department_id = d.id ORDER BY e.id ASC';
+  connection.query(query, (err, res) => {
+    if (err) throw err;
+    figlet('Employees By Manager', (err, result) => {
+      console.log(err || result);
+    });
+  printTable(res);
+  trackEmployee();
+
+  });
+};
 
 
 // run the update functions
