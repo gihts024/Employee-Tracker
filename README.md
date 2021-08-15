@@ -6,9 +6,9 @@ Developers are often tasked with creating interfaces that make it easy for non-d
 ### Table of Contents
 [Description](https://github.com/gihts024/Employee-Tracker#Description)
 
-[Installation](]https://github.com/gihts024/Employee-Tracker#Installation)
+[Installation](https://github.com/gihts024/Employee-Tracker#Installation)
 
-[Usage](]https://github.com/gihts024/Employee-Tracker#Usage)
+[Usage](https://github.com/gihts024/Employee-Tracker#Usage)
 
 [License](https://github.com/gihts024/Employee-Tracker#License)
 
