@@ -9,6 +9,8 @@
 
 [License](https://github.com/gihts024/Employee-Tracker#License)
 
+[Demo](https://github.com/gihts024/Employee-Tracker/blob/main/employee%20tracker%20demo.gif)
+
 [Test Instructions](https://github.com/gihts024/Employee-Tracker#Test_Instructions)
 
 [Links](https://github.com/gihts024/Employee-Tracker#Links)
@@ -29,6 +31,9 @@ on the home directory run node index.js, then follow the instructions of the pro
 ## License ##
 
 Free version
+
+
+### Demo ###
 
 ## Test Instructions
  
