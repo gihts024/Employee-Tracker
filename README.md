@@ -4,7 +4,7 @@
 Developers are often tasked with creating interfaces that make it easy for non-developers to view and interact with information stored in databases. Often these interfaces are known as Content Management Systems. This system is a solution for managing a company's employees using node, inquirer, and MySQL
 
 ### Table of Contents
-[Description]https://github.com/gihts024/Employee-Tracker#Description
+[Description]#Description
 [Installation]]https://github.com/gihts024/Employee-Tracker#Installation
 [Usage]]https://github.com/gihts024/Employee-Tracker#Usage
 [License]]https://github.com/gihts024/Employee-Tracker#License
