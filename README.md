@@ -35,6 +35,6 @@ Free version
 on running the node index.js a display output should be visible before running any other commands
 
 ## Links ##
-gihts024
+
 info@gihts.com
 
