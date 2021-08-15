@@ -9,7 +9,7 @@
 
 [License](https://github.com/gihts024/Employee-Tracker#License)
 
-[Demo](https://github.com/gihts024/Employee-Tracker/blob/main/employee%20tracker%20demo.gif)
+[Demo](https://github.com/gihts024/Employee-Tracker#Demo)
 
 [Test Instructions](https://github.com/gihts024/Employee-Tracker#Test_Instructions)
 
@@ -34,7 +34,7 @@ Free version
 
 
 ### Demo ###
-
+![Alt text](https://github.com/gihts024/Employee-Tracker/blob/main/employee%20tracker%20demo.gif)
 ## Test Instructions
  
 on running the node index.js a display output should be visible before running any other commands
